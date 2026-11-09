@@ -1,0 +1,22 @@
+/* Technique 1 : classes CSS dans un fichier importé */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.app h1 {
+  color: #0d1a26;
+}
+
+.liste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}

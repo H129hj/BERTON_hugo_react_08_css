@@ -1,0 +1,25 @@
+/* Technique 3 : module CSS, les noms de classe sont locaux au composant */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+  margin: 8px 0 4px;
+  font-size: 1.1rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.8rem;
+}
